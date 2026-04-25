@@ -25,6 +25,6 @@ jobs:
       targetType: 'inline'
       script: |
         terraform init
-        terraform apply -auto-approve
+        terraform apply
 
 

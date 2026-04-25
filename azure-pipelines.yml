@@ -16,7 +16,7 @@ jobs:
         terraform validate
         terraform plan
 
-- job:
+- job: Terraformend
   displayName: Terraform apply
   dependsOn: Terraforminitiate
   steps:

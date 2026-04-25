@@ -3,4 +3,12 @@ trigger: none
 pool: Default
 
 steps:
-  - 
+
+- task: PowerShell@2
+  inputs:
+    targetType: 'inline'
+    script: |
+      ls
+      terraform init
+
+      
